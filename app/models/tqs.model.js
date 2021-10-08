@@ -8,7 +8,7 @@ module.exports = mongoose => {
       SN: String,
       CANID: String,
       SPN1761: Number,
-      TTIMESTAMP: Number,
+      TTIMESTAMP: String,
       createdAt:String
 
     }
