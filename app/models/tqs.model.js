@@ -4,13 +4,10 @@
 module.exports = mongoose => {
   var schema = mongoose.Schema(
     {
-      title: String,
-      SN: String,
-      CANID: String,
-      SPN1761: Number,
-      TTIMESTAMP: String,
-      createdAt:String
-
+      tqstimestamps: String,
+      temp2: Number,
+      concentration: Number,
+      status: String
     }
   );
 

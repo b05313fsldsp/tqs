@@ -24,5 +24,5 @@ module.exports = app => {
   // Create a new Tqs
   router.delete("/", tqs.deleteAll);
 
-  app.use("/api/tqs", router);
+  app.use("/monitor/tqs", router);
 };

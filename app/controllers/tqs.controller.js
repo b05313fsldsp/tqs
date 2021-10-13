@@ -11,12 +11,10 @@ exports.create = (req, res) => {
 
   // Create a Tqs
   const tqs = new Tqs({
-    title: req.body.title,
-    SN: req.body.SN,
-    CANID: req.body.CANID,
-    SPN1761: req.body.SPN1761,
-    TTIMESTAMP: req.body.TTIMESTAMP,
-    createAt: req.body.createAt,
+    tqstimestamps: req.body.tqstimestamps,
+    temp2: req.body.temp2,
+    concentration: req.body.concentration,
+    status: req.body.status,
     published: req.body.published ? req.body.published : false
   });
 
